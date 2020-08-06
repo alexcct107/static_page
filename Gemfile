@@ -9,11 +9,12 @@ gem 'rails', '~> 5.2.4'
 gem 'sqlite3', group: :development
  gem 'pg', group: :production
  gem 'rails_12factor', group: :production
-
-gem 'bcrypt'
+gem 'rails-controller-testing'
+gem 'bcrypt' 
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
 gem 'bootstrap-sass'
+gem 'jquery-rails'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
