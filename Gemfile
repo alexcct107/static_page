@@ -11,6 +11,9 @@ gem 'sqlite3', group: :development
  gem 'rails_12factor', group: :production
 gem 'rails-controller-testing'
 gem 'bcrypt' 
+gem 'faker'
+gem 'will_paginate'
+gem 'bootstrap-will_paginate'
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
 gem 'bootstrap-sass'
